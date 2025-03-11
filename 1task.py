@@ -5,13 +5,12 @@ import pyautogui
 
 pygame.init()
 
-clock_bg = pygame.image.load(r"mickeyclock.jpeg") 
-right_hand = pygame.image.load(r"r.jpeg") 
-left_hand = pygame.image.load(r"l.jpeg")
+clock_bg = pygame.image.load(".\mickeyclock.jpeg") 
+right_hand = pygame.image.load(".\r.jpeg") 
+left_hand = pygame.image.load(".\l.jpeg")
 
 w, h = clock_bg.get_size()
 screen = pygame.display.set_mode((w, h))
-pygame.display.set_caption("Mickey Clock")
 
 center = (w // 2, h // 2)
 
