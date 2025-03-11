@@ -12,7 +12,7 @@ ball_x, ball_y = w // 2, h // 2
 
 running = True
 while running:
-    screen.fill(255, 255, 255)
+    screen.fill((255, 255, 255))
     pygame.draw.circle(screen, (255, 0, 0), (ball_x, ball_y), r)
     pygame.display.flip()
     
