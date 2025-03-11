@@ -1,7 +1,6 @@
 import pygame
 import time
 import math
-import pyautogui
 
 pygame.init()
 
@@ -21,7 +20,6 @@ def rotate_and_blit(image, angle, position):
 
 running = True
 while running:
-    print(pyautogui.position())
     screen.fill((255, 255, 255))
     screen.blit(clock_bg, (0, 0))
     
